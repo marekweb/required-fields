@@ -1,0 +1,18 @@
+{
+  "name": "required-fields",
+  "version": "1.0.0",
+  "description": "Check for the presence of required fields on an object.",
+  "main": "required-fields.js",
+  "scripts": {
+    "test": "xo --space && ava"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "xo": "^0.15.1"
+  },
+  "dependencies": {
+    "pluralize": "^2.0.0"
+  }
+}
